@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JeongWoo Park | Developer</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main_page.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<section class="content-wrapper header-bg"> 
+			<article class="content-container">
+				<h1>Jeong Woo Park</h1>
+				<hr/ class ="small-line-header">
+				<div class="paragraph-content">
+					<p>
+						<b>I’m a Software &amp; Web developer currently attending University of Toronto</b>- eager to gain more expierence in 
+						said fields, and learn from industry professionals.
+					</p>
+					<p>
+						At the momment working I’m working as a web developer 
+						for <i>Arima.io</i> and coding on my spare time outside school.
+					</p>
+			</article>
+		</section>
+			
+		<section class="content-wrapper background-whiteish"> 
+			<article class="content-container">
+				<div class="title-container text-red">
+					<div class="icon-container">
+						<img src="img/info.png" alt="info_icon">
+					</div>
+					<h3>My Radar Graph</h3>
+					<hr/ class ="small-line-radar">
+				</div>
+				<div class="paragraph-container">
+					<p>Take a look at the radar chart to see the breakdown of my skills, <br/>
+			   		hover over the individual circles for more detail.</p>
+				</div>
+				<div class ="wow rollIn" data-wow-delay="0.5s"id="chartdiv_radar"></div>
+			</article>
+		</section>
+		
+		<section class="content-wrapper background-grass"> 
+			<article class="content-container">
+				<div class="title-container text-blue">
+					<div class="icon-container">
+						<img src="img/keyboard.png" alt="keyboard_icon">
+					</div>
+					<h3>Development Skills</h3>
+					<hr/ class ="small-line-development">
+				</div>
+
+				<canvas id="outerCircle" width ="320" height="320" style="border:1px solid #0000000;">
+					</canvas>
+
+				<div class="circle-outer  wow rollIn">
+
+<!-- 					<svg class="circle" id="circle1">
+						<circle cx="0" cy="0" r="160" stroke="none" fill="#cd2c24"/>
+						<svg class="inner_circle" id="inner_circle1">
+							<circle cx="0" cy="0" r="5" stroke="none" fill="#3498db"/>
+						</svg>
+						<svg class ="line" id="line1">
+				  			<line x1="353" y1="439" x2="353" y2="634" style="stroke:#3498db;stroke-width:1" />
+						</svg>
+						<p class="text_dev" id="text_dev1">C <br/>(Hot) </p>
+					</svg> -->
+				</div>
+
+<!-- 				<div class="circle_outer wow rollIn" data-wow-delay="0.5s">
+					<svg class="circle" id="circle2">
+						<circle cx="0" cy="0" r="100" stroke="none" fill="#ffb800"/>
+						<svg class="inner_circle" id="inner_circle2">
+							<circle cx="0" cy="0" r="5" stroke="none" fill="#3498db"/>
+						</svg>
+						<svg class ="line" id="line2">
+				  			<line x1="613" y1="439" x2="613" y2="239" style="stroke:#3498db;stroke-width:1" />
+						</svg>	
+						<p class="text_dev" id="text_dev2"> JavaScript &amp; jQuery<br/>(Rookie) </p>
+					</svg>
+				</div>
+
+				<div class="circle_outer wow rollIn" data-wow-delay="1s">
+					<svg class="circle" id="circle3">
+						<circle cx="873" cy="434" r="160" stroke="none" fill="#ff8900"/>
+						<svg class="inner_circle" id="inner_circle3">
+							<circle cx="873" cy="434" r="5" stroke="none" fill="#3498db"/>
+						</svg>
+						<svg class ="line" id="line3">
+				  			<line x1="873" y1="439" x2="873" y2="634" style="stroke:#3498db;stroke-width:1" />
+						</svg>
+						<p class="text_dev" id="text_dev3"> HTML &amp; CSS<br/>(Ninja) </p>
+					</svg>
+				</div>
+
+				<div class="circle_outer wow rollIn" data-wow-delay="1.5s">
+					<svg class="circle" id="circle4">
+						<circle cx="1113" cy="434" r="80" stroke="none" fill="#ffbe73"/>
+						<svg class="inner_circle" id="inner_circle4">
+							<circle cx="1113" cy="434" r="5" stroke="none" fill="#3498db"/>
+						</svg>
+						<svg class ="line" id="line4">
+				  			<line x1="1113" y1="439" x2="1113" y2="239" style="stroke:#3498db;stroke-width:1" />
+						</svg>			
+						<p class="text_dev" id="text_dev4"> Ruby on Rails <br/>(Learner) </p>
+					</svg>
+				</div>
+
+				<div class="circle_outer wow rollIn" data-wow-delay="2s">
+					<svg class="circle" id="circle5">
+						<circle cx="1313" cy="434" r="120" stroke="none" fill="#f2836b"/>
+						<svg class="inner_circle" id="inner_circle5">
+							<circle cx="1313" cy="434" r="5" stroke="none" fill="#3498db"/>
+						</svg>
+						<svg class ="line" id="line5">
+				  			<line x1="1313" y1="439" x2="1313" y2="634" style="stroke:#3498db;stroke-width:1" />
+						</svg>		
+						<p class="text_dev" id="text_dev5"> Java <br/>(Mild) </p>	
+					</svg>
+				</div> -->
+			</article>
+		</section>
+
+		<section class="content-wrapper"> 
+			<article class="content-container">
+				<div class="title-container">
+					<div class="icon-container">
+						<img src="briefcase.png" alt="briefcase_icon" >
+					</div>
+					<h3>Experience</h3>
+					<hr/ class ="small_line">
+				</div>
+
+				<div class= "experience_box" id="experience_box">
+					<article>
+						<h3>University of Toronto</h3>
+						<p>Attending University of Toronto as Third year in Computer Science Specialist program. </p>
+					</article>
+					<article>
+						<h3>Founder and Full-Stack Developer</h3>
+						<p>As 1 of 3 co-founders of StudyBuddies, I am responsible for both business and technical side of the StartUp. From meeting VC's and angel investors to coding back-end and front-end of the website</p>
+					</article>
+					<article>
+						<h3>Web Designer at Arima.io</h3>
+						<p>Arima is a Toronto-based startup company focused on data aggregation and presentation. My responsibilities include helping out with coding the front-end U.I. and integrating the back-end with Rails.</p>
+					</article>
+					<article>
+						<h3>I.T. Support at New College</h3>
+						<p>I.T. support at new college, University of Toronto. Provide support to residence networking, lab computer, classroom audio and visual equipment.</p>
+					</article>
+					<article>
+						<h3>Marketing Associate for OneClass</h3>
+						<p>Representative for OneClass at St. George campus at U of T, helping to develop marketing campaigns and promote to students and professors; between Jan2014 - May2014</p>
+					</article>
+					<article>
+						<h3>Social Media Intern for AIESEC</h3>
+						<p> Part of the social media team that promotes AIESEC and its event's on social media, between Sep2013 - Jan 2014</p>
+					</article>
+					<article>
+						<h3>Executive Member at A.Y.A.A</h3>
+						<p>Executive and founding member for Awakened Youth Against Apathy, a startup student organization. Our mission is to raise political awareness amongst the student body.</p>
+					</article>
+					<article>
+						<h3>Barista at Starbucks</h3>
+						<p>Worked as a barista at at Starbucks between May 2013 to November 2013</p>
+					</article>
+				</div>
+			</article>
+		</section>
+		
+		<section class="content-wrapper"> 
+			<article class="content-container">
+				<div class="title-container">
+					<div class="icon-container">
+						<img src="contact.png" alt="contact_icon">
+					</div>
+					<h3>Contact</h3>
+					<hr/ class ="small_line">
+				</div>
+				<div class="paragraph-content">
+					<p>Got an idea or a project to work on?
+					<br/><b>Let's chat!</b>
+					<br/><br/>
+					</p>
+					<h3 id="phone">(+1) 647 236 5405</h3>
+					<h3>jeongwoo.park@mail.utoronto.ca</h3>
+				</div>
+				<div class= "icon_contact">
+					<a href = "https://github.com/LongJeongS"><img src="github.png" alt="Github Icon"></a>
+					<a href = "https://www.facebook.com/jeong.p"><img src="facebook.png" alt="Facebook Icon"></a>
+					<a href = "https://www.linkedin.com/profile/view?id=289144762"><img src="linkedin.png" alt="Github Icon"></a>
+				</div>
+				<div class= "footer">
+					<p> Design & Developed by JeongWoo Park, &copy; 2014</p>
+				</div>
+			</article>
+		</section>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+
+		<script src="Radar_Graph/amcharts/amcharts.js" type="text/javascript"></script>
+	    <script src="Radar_Graph/amcharts/radar.js" type="text/javascript"></script>
+	    <script src="Radar_Graph/radar_graph.js" type="text/javascript"></script>
+	    <script src="js/wow.js" type="text/javascript"></script>
+	    <script src="jquery.sticky.js" type="text/javascript"></script>
+	    <script src="js/article.js"type="text/javascript"></script>
+
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".feed").sticky({topSpacing:0});
+				});
+		</script> 
+
+		 <script src="wow.js"></script>
+		 <script>
+		  	new WOW().init();
+		 </script>
+
+		 <script type="text/javascript">
+		 	var c = document.getElementById("outerCircle");
+			var ctx = c.getContext("2d");
+			ctx.beginPath();
+			ctx.arc(140,140,140,0,2*Math.PI);
+		    ctx.fillStyle = 'green';
+		    ctx.fill();
+			ctx.stroke();
+			ctx.closePath();
+			var d = document.getElementById("outerCircle");
+			var dtx = d.getContext("2d");
+			dtx.beginPath();
+			dtx.arc(95,50,5,0,2*Math.PI);
+		    dtx.fillStyle = 'white';
+		    dtx.fill();
+			dtx.stroke();
+			dtx.closePath();
+		 </script>
+		
+
+	</body>
+</html>
