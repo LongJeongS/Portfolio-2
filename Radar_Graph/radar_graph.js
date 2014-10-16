@@ -41,7 +41,7 @@
                 chart.startDuration = 2;
                 chart.color ="#e74c3c";
                 chart.creditsPosition = "bottom-left";
-                chart.fontFamily ='Montserrat';
+                chart.fontFamily ="Roboto', sans-serif";
                 chart.fontSize ="15";
 
                 // VALUE AXIS
