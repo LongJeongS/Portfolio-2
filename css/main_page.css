@@ -18,17 +18,50 @@
 	display: inline-block;
 }
 
+.link-button {
+  position: relative;
+  width: 10%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #34495e;
+  border: 0;
+  border-bottom: 2px solid #263849;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #263849;
+  box-shadow: inset 0 -2px #263849;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.link-button p {
+	padding-top: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.nounderline {
+	text-decoration: none;
+}
+
 .text-red {
 	color: #e74c3c;
 }
 
 .background-whiteish {
 	background-color: #f5f5f5;
-	height: 75vh;
+	height: 77vh;
 }
 
 .background-grass{
 	background-color: #BEEB9F;
+	height: 90vh;
 }
 
 .title-container h3 { 
@@ -63,7 +96,6 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 	font-weight: 100;
-	font-size: 22px;
 	color: #ecf0f1;
 }
 
@@ -160,12 +192,12 @@
 }
 
 .experience_box{
-	padding: 50px;
+	padding: 30px;
 	position: relative;
 	width: 50%;
 	margin: 0 auto;
 	overflow: auto;
-	height: 600px;
+	height: 560px;
 }
 
 .experience_box:before,
@@ -180,11 +212,11 @@
 
 .experience_box article{
 	width: 170px;
-	height: 250px;
+	height: 240px;
 	background:	#00A388;
 	cursor: pointer;
 	float: left;
-	border: 10px solid #00A388;
+	border: 5px solid #00A388;
 	text-align: left;
 	text-transform: none;
 	margin: 15px;
@@ -209,7 +241,7 @@
 }
 
 .experience_box article p{
-	font-family:  'Quattrocento Sans', sans-serif;
+	font-family:  'Josefin Sans', sans-serif;
 	font-size: 15px;
 	line-height: 17px;
 	color: #f5f5f5;
@@ -265,13 +297,21 @@
 
 .background-dark-green {
 	background-color: #00A388;
-	height: 50vh;
+	height: 60vh;
 }
 
 .text-yellow { 
 	color: #f1c40f;
 }
 
+.paragraph-content h4 {
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8em;
+	font-weight: 100;
+	color: #ecf0f1;
+}
 .small-line-contact {
 	width: 1.7%;
 	border: 0;
@@ -286,4 +326,5 @@
 
 .footer {
 	opacity: 0.5;
+	margin-top: 60px;
 }
